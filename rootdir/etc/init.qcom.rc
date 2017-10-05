@@ -1045,6 +1045,7 @@ service vendor.cnss-daemon /vendor/bin/cnss-daemon -n -l
     user system
     group system inet net_admin wifi
     writepid /dev/cpuset/system-background/tasks
+    capabilities NET_ADMIN
 
 on property:sys.shutdown.requested=*
     stop vendor.cnss-daemon
