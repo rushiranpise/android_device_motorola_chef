@@ -24,5 +24,7 @@
     -->
     <integer name="config_fingerprintSensorLocation">0</integer>
 
-</resources>
+    <!-- Display ro.product.name above Device model -->
+    <bool name="config_displayDeviceName">true</bool>
 
+</resources>

@@ -1,7 +1,6 @@
 Copyright 2018 - The LineageOS Project
 
 Device configuration for Motorola One Power (chef)
-==================================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
