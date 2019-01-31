@@ -22,7 +22,7 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/motorola/sdm660-common/sdm660-common-vendor.mk)
+$(call inherit-product, vendor/motorola/chef/chef-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
