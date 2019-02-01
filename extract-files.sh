@@ -28,7 +28,6 @@ export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2018
 
-./../../$VENDOR/$DEVICE/extract-files.sh $@
 
 BLOB_ROOT="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
 
