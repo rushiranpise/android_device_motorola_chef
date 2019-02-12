@@ -1,2 +1,6 @@
 allow radio vendor_file:file { r_file_perms };
 get_prop(radio, qcom_ims_prop)
+allow radio bg_boot_complete_prop:file read;
+allow radio bg_daemon_prop:file read;
+allow radio bluetooth_prop:file read;
+allow radio bootloader_boot_reason_prop:file read;
