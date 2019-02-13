@@ -36,3 +36,7 @@ allow hal_fingerprint_fpc system_data_file:file { open };
 
 allow hal_fingerprint_fpc fingerprintd_data_file:dir rw_dir_perms;
 allow hal_fingerprint_fpc fingerprintd_data_file:file create_file_perms;
+
+allow hal_fingerprint_fpc default_android_hwservice:hwservice_manager add;
+allow hal_fingerprint_fpc tee_device:chr_file getattr;
+
