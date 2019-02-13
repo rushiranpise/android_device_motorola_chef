@@ -16,7 +16,6 @@ allow vendor_init {
 }:file { create getattr open read write setattr relabelfrom unlink };
 
 allow vendor_init proc_uid_cpupower:file write;
-allow vendor_init dpmd_data_file:dir { search setattr };
 allow vendor_init fingerprint_data_file:dir setattr;
-allow vendor_init qvrd_data_file:dir setattr;
 allow vendor_init usermodehelper:file write;
+allow vendor_init fingerprint_data_file:dir create;

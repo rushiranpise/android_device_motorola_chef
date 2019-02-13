@@ -8,4 +8,4 @@ allow qti_init_shell vendor_radio_data_file:file getattr;
 allow qti_init_shell vendor_default_prop:property_service set;
 allow qti_init_shell self:capability dac_override;
 allow qti_init_shell default_prop:property_service set;
-
+allow qti_init_shell vendor_radio_data_file:dir search;
