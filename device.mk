@@ -241,7 +241,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LineageActions
 
-# LiveDisplay
+# Trust HAL
+PRODUCT_PACKAGES += \
+   vendor.mokee.trust@1.0-service
+	
+	# LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.mokee.livedisplay@2.0-service-sdm
 
