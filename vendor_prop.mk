@@ -226,7 +226,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
 	ro.config.media_vol_steps=30 \
 	ro.config.vc_call_vol_steps=30 \
-    ro.telephony.default_network=20,20 \
+    ro.telephony.default_network=20,20
 
 # RmNet Data
 PRODUCT_PROPERTY_OVERRIDES += \

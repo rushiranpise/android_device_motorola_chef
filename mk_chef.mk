@@ -67,14 +67,14 @@ else
 endif
 
 # Device identifiers
-PRODUCT_DEVICE := chef
+PRODUCT_DEVICE := chef_sprout
 PRODUCT_NAME := mk_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_RELEASE_NAME := chef
+PRODUCT_RELEASE_NAME := chef_retail
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=chef
+    PRODUCT_NAME=chef_retail
 
 BUILD_FINGERPRINT := motorola/chef_retail/chef_sprout:9/PPTS29.74-29-2/cf35:user/release-keys
