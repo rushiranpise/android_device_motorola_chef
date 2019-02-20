@@ -16,7 +16,7 @@
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -68,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := chef
-PRODUCT_NAME := lineage_chef
+PRODUCT_NAME := mk_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
 PRODUCT_MANUFACTURER := Motorola
@@ -77,4 +77,4 @@ PRODUCT_RELEASE_NAME := chef
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=chef
 
-BUILD_FINGERPRINT := motorola/chef_retail/chef_sprout:9/PPT29.74-25/64be:user/release-keys
+BUILD_FINGERPRINT := motorola/chef_retail/chef_sprout:9/PPTS29.74-29-2/cf35:user/release-keys

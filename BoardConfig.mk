@@ -209,8 +209,11 @@ TARGET_KERNEL_ARCH := arm64
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
+# MK Hardware
+BOARD_HARDWARE_CLASS += \
+    hardware/mokee/mkhw \
+	$(DEVICE_PATH)/mkhw
+BOARD_USES_MOKEE_HARDWARE := true
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
