@@ -67,7 +67,7 @@ else
 endif
 
 # Device identifiers
-PRODUCT_DEVICE := chef_sprout
+PRODUCT_DEVICE := chef
 PRODUCT_NAME := mk_chef
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Power
