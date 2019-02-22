@@ -324,6 +324,7 @@ PRODUCT_PACKAGES += \
 # Radio
 PRODUCT_PACKAGES += \
     librmnetctl \
+	qcrild \
     libprotobuf-cpp-full
 
 # RCS

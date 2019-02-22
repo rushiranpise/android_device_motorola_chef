@@ -42,7 +42,7 @@ vendor/lib64/libcdsprpc.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libDepthBokehEffect.so
-vendor/lib/libgui_vendor.so|2289516454cceae50bb3963f9255bc113a24b508
+vendor/lib/libgui_vendor.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_ov12a10_qtech_4k_preview_3a.so
@@ -475,7 +475,7 @@ vendor/lib64/libcpion.so
 # DSP
 vendor/lib/libsdsprpc.so
 vendor/lib64/libsdsprpc.so
-vendor/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1|2628036ee707002af06c6d3cc698c7df81671b58
+vendor/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1
 vendor/lib/rfsa/adsp/libadsp_fd_skel.so
 vendor/lib/rfsa/adsp/libadsp_hvx_add_constant.so
 vendor/lib/rfsa/adsp/libadsp_hvx_skel.so
@@ -487,7 +487,7 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
-vendor/lib/rfsa/adsp/tas2560_TI.bin|4f4e98934eac788768423c8fd4ec81c02ae9ce2b
+vendor/lib/rfsa/adsp/tas2560_TI.bin
 
 # DSP - SCVE
 vendor/lib/libscveBlobDescriptor.so
@@ -573,8 +573,8 @@ vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
 # Graphics
--vendor/lib/libsdm-disp-vndapis.so|f81628ddf7fff00f5e316956ed3b50941932c7de
--vendor/lib64/libsdm-disp-vndapis.so|8ac59a32a2601a8a4b0d3b097ed02f1279f3c6b7
+-vendor/lib/libsdm-disp-vndapis.so
+-vendor/lib64/libsdm-disp-vndapis.so
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/etc/init/vendor.display.color@1.0-service.rc
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -597,9 +597,9 @@ vendor/lib/libqseed3.so
 vendor/lib/librs_adreno_sha1.so
 vendor/lib/librs_adreno.so
 vendor/lib/libRSDriver_adreno.so
-vendor/lib/libsdm-color.so|8e083bb2a20ecf76bf96e303134cbaa9ce46be81
+vendor/lib/libsdm-color.so
 vendor/lib/libsdm-diag.so
-vendor/lib/libsdmextension.so|3104df6a013e53b972227ed132aa683ec7303746
+vendor/lib/libsdmextension.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib/vendor.display.color@1.0.so
 vendor/lib/vendor.display.color@1.1.so
@@ -624,17 +624,17 @@ vendor/lib64/libqseed3.so
 vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/libRSDriver_adreno.so
-vendor/lib64/libsdm-color.so|1a9b68e5f2f09d37c2fa83907a6a70c7adb081f5
+vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-diag.so
-vendor/lib64/libsdmextension.so|c4a416cb8c0f5dc87bee8494d70247cf049224b9
+vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
 # Graphics - HDR
-vendor/lib/libhdr_tm.so|17705b090e4e8b487a39071b2f46a45324d611a6
-vendor/lib64/libhdr_tm.so|a44d285a08aa30ef90e791c646b9c12a697a30b2
+vendor/lib/libhdr_tm.so
+vendor/lib64/libhdr_tm.so
 
 # Graphics - Firmwares
 vendor/firmware/a225_pfp.fw
@@ -658,6 +658,7 @@ vendor/firmware/a540_gpmu.fw2
 
 # IPA
 vendor/bin/ipacm-diag
+lib64/android.hardware.tetheroffload.control@1.0.so
 
 # Listen
 vendor/lib/libgcs-calwrapper.so
@@ -716,7 +717,6 @@ vendor/lib64/libvpplibrary.so
 # Moto Permissions
 etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml
 etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml
-vendor/etc/permissions/com.motorola.camera2.xml|6d77e9310c6647cda3c35f64097a14a1bda798d3
 
 # Offmode charging
 vendor/bin/charge_only_mode
@@ -754,7 +754,7 @@ vendor/lib64/libperipheral_client.so
 vendor/lib64/libdisp-aba.so
 
 # QMI
-etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml|2826b33ed8e2756cc748c80bd6c466ff8af97ac5
+etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
 etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
 vendor/bin/irsc_util
 vendor/lib/libdiag.so
@@ -791,12 +791,11 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libquipc_os_api.so
 
 # Radio
--vendor/app/datastatusnotification/datastatusnotification.apk|9e21f9a695951c3bc9ef39fcd4e73ec58b13415c
 -app/QtiTelephonyService/QtiTelephonyService.apk:vendor/app/QtiTelephonyService/QtiTelephonyService.apk
 etc/permissions/qcrilhook.xml:vendor/etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml:vendor/etc/permissions/telephonyservice.xml
 framework/qcrilhook.jar:vendor/framework/qcrilhook.jar
-framework/qti-telephony-common.jar|b1953a3599255f08f1785c677d22810f65e0167b
+framework/qti-telephony-common.jar
 framework/QtiTelephonyServicelibrary.jar:vendor/framework/QtiTelephonyServicelibrary.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
@@ -886,11 +885,10 @@ vendor/lib64/libqrtr.so
 vendor/lib/qcrild_librilutils.so
 vendor/lib64/qcrild_librilutils.so
 vendor/lib64/libadropbox.so
+vendor/etc/motorola/mdmctbk/ctbk_cfg.xml
 
 # Radio - IMS
--priv-app/ims/ims.apk|eef47c0b6f250e7f96e7155d84274b1c83940d8f
-vendor/etc/permissions/qti-vzw-ims-internal.xml|89409c5f355acbd65a45b13f12e1baafb13baf46
-vendor/framework/qti-vzw-ims-internal.jar|5db6e9e149e6beef70ab68a1246917ab2ef19dbc
+-priv-app/ims/ims.apk
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
 lib/lib-imsvtextutils.so
@@ -911,6 +909,8 @@ lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.ims.rcsconfig@1.0.so
+lib64/android.hardware.radio@1.0.so
+lib/android.hardware.radio@1.0.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon

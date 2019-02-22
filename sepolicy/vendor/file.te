@@ -17,4 +17,4 @@ type idc_file, file_type, vendor_file_type;
 type keylayout_file, file_type, vendor_file_type;
 
 # Healthd
-type sysfs_healthd, fs_type, sysfs_type, mlstrustedobject;
+type sysfs_healthd, fs_type, sysfs_type;
