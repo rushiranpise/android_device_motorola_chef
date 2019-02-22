@@ -659,27 +659,11 @@
         <interface>
             <name>IDisplayModes</name>
             <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IAdaptiveBacklight</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IColorEnhancement</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IDisplayColorCalibration</name>
-            <instance>default</instance>
-        </interface>
+        </interface>        
         <interface>
             <name>IPictureAdjustment</name>
             <instance>default</instance>
-        </interface>
-        <interface>
-            <name>IReadingEnhancement</name>
-            <instance>default</instance>
-        </interface>
+        </interface>        
     </hal>
     <hal format="hidl">
         <name>vendor.mokee.trust</name>

@@ -247,8 +247,8 @@ PRODUCT_PACKAGES += \
 	
 	# LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.mokee.livedisplay@2.0-service-sdm \
-	vendor.mokee.livedisplay@2.0-service-sysfs
+     vendor.mokee.livedisplay@2.0-service-sdm \
+	 vendor.mokee.livedisplay@2.0-service-sysf	
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -328,7 +328,7 @@ PRODUCT_PACKAGES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio@1.2 \
+    android.hardware.radio@1.3 \
     android.hardware.radio.config@1.0 \
     android.hardware.secure_element@1.0 \
     librmnetctl \
