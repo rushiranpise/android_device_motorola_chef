@@ -659,6 +659,7 @@
         <interface>
             <name>IDisplayModes</name>
             <instance>default</instance>
+        </interface>
         <interface>
             <name>IAdaptiveBacklight</name>
             <instance>default</instance>
