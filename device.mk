@@ -248,7 +248,7 @@ PRODUCT_PACKAGES += \
 	# LiveDisplay
 PRODUCT_PACKAGES += \
      vendor.mokee.livedisplay@2.0-service-sdm \
-	 vendor.mokee.livedisplay@2.0-service-sysf	
+	 vendor.mokee.livedisplay@2.0-service-sysfs	
 
 # Media
 PRODUCT_COPY_FILES += \
